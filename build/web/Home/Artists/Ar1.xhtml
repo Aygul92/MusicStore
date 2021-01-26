@@ -1,0 +1,136 @@
+<?xml version='1.0' encoding='UTF-8' ?>
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml"
+      xmlns:h="http://xmlns.jcp.org/jsf/html"
+      xmlns:ui="http://xmlns.jcp.org/jsf/facelets"
+      xmlns:f="http://xmlns.jcp.org/jsf/core">
+    <h:head>
+          <title>home page</title>
+          <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+            <meta content="text/html; charset=UTF-8" http-equiv="Content-Type" />
+            <meta name="viewport" content="width=device-width, initial-scale=1" />
+          <h:outputStylesheet name="bootstrap.min.css" library="css" />
+          <h:outputStylesheet name="bootstrap.css" library="css" />
+           <h:outputStylesheet name="mycss.css" library="css" />
+       
+           <style>
+               body {
+    padding-top: 70px; 
+}
+
+
+
+           </style>
+   
+    </h:head>
+    <h:body>
+       
+        
+  
+        
+          <div id="page">
+
+	    <div id="header">
+		<ui:insert name="header" >
+		  <ui:include src="/Home/Header.xhtml" />
+		</ui:insert>
+	    </div>
+
+              
+              
+              
+          
+              <!-- Page Content -->
+    <div class="container">
+
+        <!-- Page Heading -->
+        <div class="row">
+            <div class="col-lg-12">
+                <h1 class="page-header">Albums of Adele
+                   
+                </h1>
+            </div>
+        </div>
+        <!-- /.row -->
+
+        <!-- Project One -->
+        <div class="row">
+            <div class="col-md-7">
+                <a href="#">
+                    <img class="img-responsive" src="http://1.bp.blogspot.com/-jPqbDe84_jg/VkoFMkUOThI/AAAAAAAAF-U/7LxYY-bMCRY/s1600/hellobyadele.jpg" alt=""/>
+                </a>
+            </div>
+            <div class="col-md-5">
+                <h3>Hello Album</h3>
+                
+                <a class="btn btn-primary" href="#">View Album <span class="glyphicon glyphicon-chevron-right"></span></a>
+            </div>
+        </div>
+        <!-- /.row -->
+
+        <hr/>
+
+        <!-- Project Two -->
+        <div class="row">
+            <div class="col-md-7">
+                <a href="#">
+                    <img class="img-responsive" src="https://s-media-cache-ak0.pinimg.com/736x/a6/33/51/a6335123f1e3eea1832d549b1d8c3683.jpg" alt=""/>
+                </a>
+            </div>
+            <div class="col-md-5">
+                <h3>Album 21</h3>
+                
+                <a class="btn btn-primary" href="#">View Album <span class="glyphicon glyphicon-chevron-right"></span></a>
+            </div>
+        </div>
+        <!-- /.row -->
+
+        <hr/>
+
+
+
+        
+              
+              
+              
+              
+              
+              
+              
+              
+              
+              
+              
+              
+              
+
+      
+	    <div id="footer">
+	    	<ui:insert name="footer" >
+	    	  <ui:include src="/TemplateHome/Footer.xhtml" />
+	    	</ui:insert>
+    	    </div>
+
+          </div>
+        
+          </div>
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        <!-- Placed at the end of the document so the pages load faster -->
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
+    <h:outputScript name="bootstrap.min.js" library="js"/>
+    </h:body>
+</html>
