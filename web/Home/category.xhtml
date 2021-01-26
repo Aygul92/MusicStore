@@ -1,0 +1,104 @@
+<?xml version='1.0' encoding='UTF-8' ?>
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml"
+      xmlns:h="http://xmlns.jcp.org/jsf/html"
+      xmlns:ui="http://xmlns.jcp.org/jsf/facelets"
+      xmlns:f="http://xmlns.jcp.org/jsf/core">
+    <h:head>
+          <title>home page</title>
+          <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+            <meta content="text/html; charset=UTF-8" http-equiv="Content-Type" />
+            <meta name="viewport" content="width=device-width, initial-scale=1" />
+          <h:outputStylesheet name="bootstrap.min.css" library="css" />
+           <h:outputStylesheet name="mycss.css" library="css" />
+       
+    
+   
+    </h:head>
+    <h:body>
+       
+        
+  
+        
+          <div id="page">
+
+	    <div id="header">
+		<ui:insert name="header" >
+		  <ui:include src="/Home/Header.xhtml" />
+		</ui:insert>
+	    </div>
+
+              
+               <div class="row">
+            <div class="col-md-6 portfolio-item">
+                <a href="Songs/Rsongs.xhtml">
+                    <img class="img-responsive" src="http://static.allbackgrounds.com/bg/rock-music.jpg" alt=""/>
+                </a>
+                <h3>
+                    <a href="">Rock</a>
+                </h3>
+              
+            </div>
+            <div class="col-md-6 portfolio-item">
+                <a href="#">
+                    <img class="img-responsive" src="http://www.hypebot.com/.a/6a00d83451b36c69e201bb0954fe12970d-600wi" alt=""/>
+                </a>
+                <h3>
+                    <a href="#">Pop</a>
+                </h3>
+              
+            </div>
+        </div>
+        <!-- /.row -->
+
+        <!-- Projects Row -->
+        <div class="row">
+            <div class="col-md-6 portfolio-item">
+                <a href="#">
+                    <img class="img-responsive" src="https://pbs.twimg.com/profile_images/631217466/slowmusic_name_400x400.png" alt=""/>
+                </a>
+                <h3>
+                    <a href="#">Slow</a>
+                </h3>
+            </div>
+            <div class="col-md-6 portfolio-item">
+                <a href="#">
+                    <img class="img-responsive" src="https://i.ytimg.com/vi/jgpJVI3tDbY/maxresdefault.jpg" alt=""/>
+                </a>
+                <h3>
+                    <a href="#">classical</a>
+                </h3>
+            
+            </div>
+        </div>
+        <!-- /.row -->
+
+      
+	    <div id="footer">
+	    	<ui:insert name="footer" >
+	    	  <ui:include src="/TemplateHome/Footer.xhtml" />
+	    	</ui:insert>
+    	    </div>
+
+          </div>
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        <!-- Placed at the end of the document so the pages load faster -->
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
+    <h:outputScript name="bootstrap.min.js" library="js"/>
+    </h:body>
+</html>
